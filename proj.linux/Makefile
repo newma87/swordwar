@@ -6,7 +6,8 @@ INCLUDES =  -I../ -I../Classes -I$(COCOS_ROOT)/CocosDenshion/include
 
 SOURCES = main.cpp \
     ../Classes/AppDelegate.cpp \
-    ../Classes/HelloWorldScene.cpp
+    ../Classes/GameRoot.cpp \
+    ../Classes/scene/SceneStart.cpp
 
 
 SHAREDLIBS += -lcocos2d -lcocosdenshion
